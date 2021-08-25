@@ -8,8 +8,14 @@ listamail.push (email);
 //controlla che sia nella lista di chi può accedere,
 //stampa un messaggio appropriato sull’esito del controllo.
 
+var controllo = false;
+
 for ( var i = 0; i < listamail.length; i++) {
     if ( listamail [i] == email) {
-        alert("Benvenuto!")
+       controllo = true;
     }
+}
+
+if (controllo = true ) {
+    alert('Benvenuto!')
 }
