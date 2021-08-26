@@ -5,6 +5,8 @@ var numeropc = Math.floor(Math.random()*6) + 1;
 
 if (numerogiocatore > numeropc) {
     alert("hai vinto!")
+} else if (numeropc > numerogiocatore) {
+    alert("hai perso!")
 } else {
-    alert("hai perso")
+    alert("hai pareggiato!")
 }
